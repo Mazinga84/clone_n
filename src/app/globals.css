@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --netflix-red: #E50914;
+  --netflix-black: #141414;
+  --netflix-dark: #0A0A0A;
+  --netflix-gray: #808080;
+  --netflix-light: #B3B3B3;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--netflix-black);
+  color: white;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--netflix-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--netflix-gray);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--netflix-light);
+}
+
+/* Netflix font for logo and titles */
+.font-netflix {
+  font-family: 'Bebas Neue', cursive;
+}
+
+/* Gradient overlays */
+.hero-gradient {
+  background: linear-gradient(
+    to bottom,
+    rgba(20, 20, 20, 0) 0%,
+    rgba(20, 20, 20, 0.1) 20%,
+    rgba(20, 20, 20, 0.4) 40%,
+    rgba(20, 20, 20, 0.7) 60%,
+    rgba(20, 20, 20, 0.95) 80%,
+    var(--netflix-black) 100%
+  );
+}
+
+.card-gradient {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.5) 50%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+}
+
+/* Hover scale effect */
+.card-hover {
+  transition: transform 0.3s ease, z-index 0s 0.3s;
+}
+
+.card-hover:hover {
+  transform: scale(1.05);
+  z-index: 10;
+}
+
+/* Hide scrollbar but allow scrolling */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Row scrollable container */
+.row-scroll {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  gap: 8px;
+  padding: 0 60px;
+}
+
+.row-scroll > * {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+
+/* Focus styles */
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--netflix-red);
+  outline-offset: 2px;
+}

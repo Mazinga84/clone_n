@@ -1,0 +1,867 @@
+{
+  "profile": {
+    "id": "0d5ae415-b5ca-4f03-96f5-30c1118518b0",
+    "name": "Clone N",
+    "description": "",
+    "project_type": "web_app",
+    "industry": "media",
+    "skill_level": "beginner",
+    "created_at": "2026-04-01T07:30:55.500Z",
+    "updated_at": "2026-04-01T07:30:55.500Z"
+  },
+  "goals": [
+    {
+      "id": "2e8e74a5-4888-45ae-bf97-c240a5b3aab2",
+      "name": "Netflix UI Clone",
+      "title": "Netflix UI Clone",
+      "description": "Pixel-perfect Netflix UI replication with full browse experience, movie details, search, and profiles using Next.js",
+      "status": "suggested",
+      "source": "discovery_chat"
+    }
+  ],
+  "roles": [
+    {
+      "id": "100a1a62-e24b-4862-bfbb-c597abf40afc",
+      "name": "Viewer",
+      "title": "Viewer",
+      "description": "Default user browsing and watching content",
+      "status": "suggested",
+      "source": "discovery_chat"
+    }
+  ],
+  "features": [
+    {
+      "id": "852abe34-1066-4596-a3a7-200df7735fdf",
+      "name": "Home/Browse",
+      "title": "Home/Browse",
+      "description": "Main landing page with horizontal scrolling rows of movies/shows organized by category",
+      "status": "suggested",
+      "source": "discovery_chat"
+    },
+    {
+      "id": "d04469ff-ccbd-45a2-82e4-36e8f68b8dee",
+      "name": "Hover Preview",
+      "title": "Hover Preview",
+      "description": "When hovering over a movie poster, display expanded card with preview-like effects",
+      "status": "suggested",
+      "source": "discovery_chat"
+    },
+    {
+      "id": "66400035-f347-47de-ace7-121e312caf39",
+      "name": "Movie/Show Detail",
+      "title": "Movie/Show Detail",
+      "description": "Full detail page showing synopsis, cast, similar titles, and mock video player",
+      "status": "suggested",
+      "source": "discovery_chat"
+    },
+    {
+      "id": "2b30d55f-8a9b-4d37-8262-c1d8900a2c42",
+      "name": "Search",
+      "title": "Search",
+      "description": "Real-time search functionality across all mock titles",
+      "status": "suggested",
+      "source": "discovery_chat"
+    },
+    {
+      "id": "e89e57e1-d78d-4645-84fc-d37e65db5a64",
+      "name": "My List",
+      "title": "My List",
+      "description": "User's saved/favorite movies and shows",
+      "status": "suggested",
+      "source": "discovery_chat"
+    },
+    {
+      "id": "704f5d2a-c0c6-495e-a3ca-3c99fbb08dc5",
+      "name": "Profiles",
+      "title": "Profiles",
+      "description": "Profile selection screen with avatar management",
+      "status": "suggested",
+      "source": "discovery_chat"
+    },
+    {
+      "id": "b8360f5f-627d-4d64-9567-c6bf256d0904",
+      "name": "Mock Video Player",
+      "title": "Mock Video Player",
+      "description": "Netflix-style video player UI with controls overlay",
+      "status": "suggested",
+      "source": "discovery_chat"
+    },
+    {
+      "id": "a52e3735-c5fc-44eb-9043-fc9de72d9ead",
+      "name": "Mock Data System",
+      "title": "Mock Data System",
+      "description": "Fake movie/show database with posters, descriptions, and metadata",
+      "status": "suggested",
+      "source": "discovery_chat"
+    }
+  ],
+  "screens": [
+    {
+      "id": "3e942ff3-7ee8-4c3a-a86b-081131cea3f4",
+      "name": "Profiles",
+      "title": "Profiles",
+      "description": "Profile selection screen with Netflix-style avatars",
+      "status": "suggested",
+      "source": "discovery_chat"
+    },
+    {
+      "id": "4e637392-f589-4bcf-8286-eba2b964e5c7",
+      "name": "Home",
+      "title": "Home",
+      "description": "Main browse page with hero banner and category rows",
+      "status": "suggested",
+      "source": "discovery_chat"
+    },
+    {
+      "id": "d78675f8-0b42-4eec-b13b-7704e42acf57",
+      "name": "Search",
+      "title": "Search",
+      "description": "Search page with results grid",
+      "status": "suggested",
+      "source": "discovery_chat"
+    },
+    {
+      "id": "293a21fc-eb15-4cff-be08-bcbf47f9a153",
+      "name": "Detail",
+      "title": "Detail",
+      "description": "Movie/Show detail page with full info and mock player",
+      "status": "suggested",
+      "source": "discovery_chat"
+    },
+    {
+      "id": "ae67cf28-a6a8-4627-908c-1099843d30c4",
+      "name": "My List",
+      "title": "My List",
+      "description": "User's saved content page",
+      "status": "suggested",
+      "source": "discovery_chat"
+    }
+  ],
+  "flows": [],
+  "components": [],
+  "data_entities": [
+    {
+      "id": "088c980e-2116-43e5-aa3d-27f81c98acba",
+      "name": "Movie/Show",
+      "title": "Movie/Show",
+      "description": "Title, description, poster, backdrop, release year, rating, genres, duration, cast",
+      "status": "suggested",
+      "source": "discovery_chat"
+    },
+    {
+      "id": "443e4324-f3c5-4e12-ad77-5b6d378bdc83",
+      "name": "Category",
+      "title": "Category",
+      "description": "Genre-based row labels like 'Trending Now', 'Action', 'Comedies'",
+      "status": "suggested",
+      "source": "discovery_chat"
+    },
+    {
+      "id": "f2d32663-b930-423b-8796-9f0a63db29a8",
+      "name": "Profile",
+      "title": "Profile",
+      "description": "Avatar, name, saved list",
+      "status": "suggested",
+      "source": "discovery_chat"
+    },
+    {
+      "id": "9ea4e641-1c69-4860-9f48-1d745148b339",
+      "name": "MyList",
+      "title": "MyList",
+      "description": "User's saved movie/show references",
+      "status": "suggested",
+      "source": "discovery_chat"
+    }
+  ],
+  "apis": [],
+  "integrations": [
+    {
+      "id": "bdeedcdb-f53a-4576-8333-93c3a7ca9649",
+      "name": "TMDB API (optional)",
+      "title": "TMDB API (optional)",
+      "description": "For real movie posters and data if desired",
+      "status": "suggested",
+      "source": "discovery_chat"
+    }
+  ],
+  "workstreams": [],
+  "milestones": [],
+  "open_questions": [],
+  "conflicts": [],
+  "design_tokens": [],
+  "deployment_targets": [],
+  "discovery_state": "completed",
+  "discovery_completion_score": 100,
+  "active_blueprint_view": "screen",
+  "version": 1,
+  "last_saved_at": "2026-04-01T07:55:32.024Z",
+  "directory": "/Users/jipark/BlueforgeProjects/clone_n",
+  "constraints": [
+    {
+      "id": "b77c01bc-02c2-42a0-86ee-002bbd5fb482",
+      "name": "Dark Mode Only",
+      "title": "Dark Mode Only",
+      "description": "Classic Netflix dark theme - no light mode",
+      "status": "suggested",
+      "source": "discovery_chat"
+    },
+    {
+      "id": "441fff04-29ca-4825-9357-345dea734fd5",
+      "name": "Web Only",
+      "title": "Web Only",
+      "description": "Desktop-first responsive design",
+      "status": "suggested",
+      "source": "discovery_chat"
+    },
+    {
+      "id": "a9b2a14a-f840-4a44-b60b-890500b45e57",
+      "name": "English Interface",
+      "title": "English Interface",
+      "description": "All UI text in English",
+      "status": "suggested",
+      "source": "discovery_chat"
+    }
+  ],
+  "ssot_model": {
+    "projectId": "hydrated-project",
+    "version": 1,
+    "objects": {
+      "3e942ff3-7ee8-4c3a-a86b-081131cea3f4": {
+        "id": "3e942ff3-7ee8-4c3a-a86b-081131cea3f4",
+        "objectType": "screen",
+        "title": "Profiles",
+        "summary": "Profile selection screen with Netflix-style avatars",
+        "status": "suggested",
+        "priority": "p1",
+        "confidence": 0.85,
+        "tags": [],
+        "source": "hydrated",
+        "linkedObjectIds": [],
+        "metadata": {
+          "purpose": "Profile selection screen with Netflix-style avatars",
+          "wireframeBlocks": [],
+          "linkedFeatures": [],
+          "linkedEntities": []
+        },
+        "provenance": {
+          "createdByType": "user",
+          "sourceView": "screen",
+          "note": "Hydrated from ProjectModel"
+        },
+        "createdAt": "2026-04-01T07:55:31.915Z",
+        "updatedAt": "2026-04-01T07:55:31.915Z",
+        "createdBy": "system",
+        "updatedBy": "system",
+        "isDeleted": false
+      },
+      "4e637392-f589-4bcf-8286-eba2b964e5c7": {
+        "id": "4e637392-f589-4bcf-8286-eba2b964e5c7",
+        "objectType": "screen",
+        "title": "Home",
+        "summary": "Main browse page with hero banner and category rows",
+        "status": "suggested",
+        "priority": "p1",
+        "confidence": 0.85,
+        "tags": [],
+        "source": "hydrated",
+        "linkedObjectIds": [],
+        "metadata": {
+          "purpose": "Main browse page with hero banner and category rows",
+          "wireframeBlocks": [],
+          "linkedFeatures": [],
+          "linkedEntities": []
+        },
+        "provenance": {
+          "createdByType": "user",
+          "sourceView": "screen",
+          "note": "Hydrated from ProjectModel"
+        },
+        "createdAt": "2026-04-01T07:55:31.915Z",
+        "updatedAt": "2026-04-01T07:55:31.915Z",
+        "createdBy": "system",
+        "updatedBy": "system",
+        "isDeleted": false
+      },
+      "d78675f8-0b42-4eec-b13b-7704e42acf57": {
+        "id": "d78675f8-0b42-4eec-b13b-7704e42acf57",
+        "objectType": "screen",
+        "title": "Search",
+        "summary": "Search page with results grid",
+        "status": "suggested",
+        "priority": "p1",
+        "confidence": 0.85,
+        "tags": [],
+        "source": "hydrated",
+        "linkedObjectIds": [],
+        "metadata": {
+          "purpose": "Search page with results grid",
+          "wireframeBlocks": [],
+          "linkedFeatures": [],
+          "linkedEntities": []
+        },
+        "provenance": {
+          "createdByType": "user",
+          "sourceView": "screen",
+          "note": "Hydrated from ProjectModel"
+        },
+        "createdAt": "2026-04-01T07:55:31.915Z",
+        "updatedAt": "2026-04-01T07:55:31.915Z",
+        "createdBy": "system",
+        "updatedBy": "system",
+        "isDeleted": false
+      },
+      "293a21fc-eb15-4cff-be08-bcbf47f9a153": {
+        "id": "293a21fc-eb15-4cff-be08-bcbf47f9a153",
+        "objectType": "screen",
+        "title": "Detail",
+        "summary": "Movie/Show detail page with full info and mock player",
+        "status": "suggested",
+        "priority": "p1",
+        "confidence": 0.85,
+        "tags": [],
+        "source": "hydrated",
+        "linkedObjectIds": [],
+        "metadata": {
+          "purpose": "Movie/Show detail page with full info and mock player",
+          "wireframeBlocks": [],
+          "linkedFeatures": [],
+          "linkedEntities": []
+        },
+        "provenance": {
+          "createdByType": "user",
+          "sourceView": "screen",
+          "note": "Hydrated from ProjectModel"
+        },
+        "createdAt": "2026-04-01T07:55:31.915Z",
+        "updatedAt": "2026-04-01T07:55:31.915Z",
+        "createdBy": "system",
+        "updatedBy": "system",
+        "isDeleted": false
+      },
+      "ae67cf28-a6a8-4627-908c-1099843d30c4": {
+        "id": "ae67cf28-a6a8-4627-908c-1099843d30c4",
+        "objectType": "screen",
+        "title": "My List",
+        "summary": "User's saved content page",
+        "status": "suggested",
+        "priority": "p1",
+        "confidence": 0.85,
+        "tags": [],
+        "source": "hydrated",
+        "linkedObjectIds": [],
+        "metadata": {
+          "purpose": "User's saved content page",
+          "wireframeBlocks": [],
+          "linkedFeatures": [],
+          "linkedEntities": []
+        },
+        "provenance": {
+          "createdByType": "user",
+          "sourceView": "screen",
+          "note": "Hydrated from ProjectModel"
+        },
+        "createdAt": "2026-04-01T07:55:31.915Z",
+        "updatedAt": "2026-04-01T07:55:31.915Z",
+        "createdBy": "system",
+        "updatedBy": "system",
+        "isDeleted": false
+      },
+      "852abe34-1066-4596-a3a7-200df7735fdf": {
+        "id": "852abe34-1066-4596-a3a7-200df7735fdf",
+        "objectType": "feature",
+        "title": "Home/Browse",
+        "summary": "Main landing page with horizontal scrolling rows of movies/shows organized by category",
+        "status": "suggested",
+        "priority": "p1",
+        "confidence": 0.85,
+        "tags": [],
+        "source": "hydrated",
+        "linkedObjectIds": [],
+        "metadata": {
+          "sourceScreenIds": []
+        },
+        "provenance": {
+          "createdByType": "user",
+          "sourceView": "feature",
+          "note": "Hydrated from ProjectModel"
+        },
+        "createdAt": "2026-04-01T07:55:31.915Z",
+        "updatedAt": "2026-04-01T07:55:31.915Z",
+        "createdBy": "system",
+        "updatedBy": "system",
+        "isDeleted": false
+      },
+      "d04469ff-ccbd-45a2-82e4-36e8f68b8dee": {
+        "id": "d04469ff-ccbd-45a2-82e4-36e8f68b8dee",
+        "objectType": "feature",
+        "title": "Hover Preview",
+        "summary": "When hovering over a movie poster, display expanded card with preview-like effects",
+        "status": "suggested",
+        "priority": "p1",
+        "confidence": 0.85,
+        "tags": [],
+        "source": "hydrated",
+        "linkedObjectIds": [],
+        "metadata": {
+          "sourceScreenIds": []
+        },
+        "provenance": {
+          "createdByType": "user",
+          "sourceView": "feature",
+          "note": "Hydrated from ProjectModel"
+        },
+        "createdAt": "2026-04-01T07:55:31.915Z",
+        "updatedAt": "2026-04-01T07:55:31.915Z",
+        "createdBy": "system",
+        "updatedBy": "system",
+        "isDeleted": false
+      },
+      "66400035-f347-47de-ace7-121e312caf39": {
+        "id": "66400035-f347-47de-ace7-121e312caf39",
+        "objectType": "feature",
+        "title": "Movie/Show Detail",
+        "summary": "Full detail page showing synopsis, cast, similar titles, and mock video player",
+        "status": "suggested",
+        "priority": "p1",
+        "confidence": 0.85,
+        "tags": [],
+        "source": "hydrated",
+        "linkedObjectIds": [],
+        "metadata": {
+          "sourceScreenIds": []
+        },
+        "provenance": {
+          "createdByType": "user",
+          "sourceView": "feature",
+          "note": "Hydrated from ProjectModel"
+        },
+        "createdAt": "2026-04-01T07:55:31.915Z",
+        "updatedAt": "2026-04-01T07:55:31.915Z",
+        "createdBy": "system",
+        "updatedBy": "system",
+        "isDeleted": false
+      },
+      "2b30d55f-8a9b-4d37-8262-c1d8900a2c42": {
+        "id": "2b30d55f-8a9b-4d37-8262-c1d8900a2c42",
+        "objectType": "feature",
+        "title": "Search",
+        "summary": "Real-time search functionality across all mock titles",
+        "status": "suggested",
+        "priority": "p1",
+        "confidence": 0.85,
+        "tags": [],
+        "source": "hydrated",
+        "linkedObjectIds": [],
+        "metadata": {
+          "sourceScreenIds": []
+        },
+        "provenance": {
+          "createdByType": "user",
+          "sourceView": "feature",
+          "note": "Hydrated from ProjectModel"
+        },
+        "createdAt": "2026-04-01T07:55:31.915Z",
+        "updatedAt": "2026-04-01T07:55:31.915Z",
+        "createdBy": "system",
+        "updatedBy": "system",
+        "isDeleted": false
+      },
+      "e89e57e1-d78d-4645-84fc-d37e65db5a64": {
+        "id": "e89e57e1-d78d-4645-84fc-d37e65db5a64",
+        "objectType": "feature",
+        "title": "My List",
+        "summary": "User's saved/favorite movies and shows",
+        "status": "suggested",
+        "priority": "p1",
+        "confidence": 0.85,
+        "tags": [],
+        "source": "hydrated",
+        "linkedObjectIds": [],
+        "metadata": {
+          "sourceScreenIds": []
+        },
+        "provenance": {
+          "createdByType": "user",
+          "sourceView": "feature",
+          "note": "Hydrated from ProjectModel"
+        },
+        "createdAt": "2026-04-01T07:55:31.915Z",
+        "updatedAt": "2026-04-01T07:55:31.915Z",
+        "createdBy": "system",
+        "updatedBy": "system",
+        "isDeleted": false
+      },
+      "704f5d2a-c0c6-495e-a3ca-3c99fbb08dc5": {
+        "id": "704f5d2a-c0c6-495e-a3ca-3c99fbb08dc5",
+        "objectType": "feature",
+        "title": "Profiles",
+        "summary": "Profile selection screen with avatar management",
+        "status": "suggested",
+        "priority": "p1",
+        "confidence": 0.85,
+        "tags": [],
+        "source": "hydrated",
+        "linkedObjectIds": [],
+        "metadata": {
+          "sourceScreenIds": []
+        },
+        "provenance": {
+          "createdByType": "user",
+          "sourceView": "feature",
+          "note": "Hydrated from ProjectModel"
+        },
+        "createdAt": "2026-04-01T07:55:31.915Z",
+        "updatedAt": "2026-04-01T07:55:31.915Z",
+        "createdBy": "system",
+        "updatedBy": "system",
+        "isDeleted": false
+      },
+      "b8360f5f-627d-4d64-9567-c6bf256d0904": {
+        "id": "b8360f5f-627d-4d64-9567-c6bf256d0904",
+        "objectType": "feature",
+        "title": "Mock Video Player",
+        "summary": "Netflix-style video player UI with controls overlay",
+        "status": "suggested",
+        "priority": "p1",
+        "confidence": 0.85,
+        "tags": [],
+        "source": "hydrated",
+        "linkedObjectIds": [],
+        "metadata": {
+          "sourceScreenIds": []
+        },
+        "provenance": {
+          "createdByType": "user",
+          "sourceView": "feature",
+          "note": "Hydrated from ProjectModel"
+        },
+        "createdAt": "2026-04-01T07:55:31.915Z",
+        "updatedAt": "2026-04-01T07:55:31.915Z",
+        "createdBy": "system",
+        "updatedBy": "system",
+        "isDeleted": false
+      },
+      "a52e3735-c5fc-44eb-9043-fc9de72d9ead": {
+        "id": "a52e3735-c5fc-44eb-9043-fc9de72d9ead",
+        "objectType": "feature",
+        "title": "Mock Data System",
+        "summary": "Fake movie/show database with posters, descriptions, and metadata",
+        "status": "suggested",
+        "priority": "p1",
+        "confidence": 0.85,
+        "tags": [],
+        "source": "hydrated",
+        "linkedObjectIds": [],
+        "metadata": {
+          "sourceScreenIds": []
+        },
+        "provenance": {
+          "createdByType": "user",
+          "sourceView": "feature",
+          "note": "Hydrated from ProjectModel"
+        },
+        "createdAt": "2026-04-01T07:55:31.915Z",
+        "updatedAt": "2026-04-01T07:55:31.915Z",
+        "createdBy": "system",
+        "updatedBy": "system",
+        "isDeleted": false
+      },
+      "088c980e-2116-43e5-aa3d-27f81c98acba": {
+        "id": "088c980e-2116-43e5-aa3d-27f81c98acba",
+        "objectType": "entity",
+        "title": "Movie/Show",
+        "summary": "Entity: Movie/Show (0 fields)",
+        "status": "suggested",
+        "priority": "p1",
+        "confidence": 0.85,
+        "tags": [],
+        "source": "hydrated",
+        "linkedObjectIds": [],
+        "metadata": {
+          "fields": [],
+          "relations": [],
+          "sourceScreenIds": []
+        },
+        "provenance": {
+          "createdByType": "user",
+          "sourceView": "db_api",
+          "note": "Hydrated from ProjectModel"
+        },
+        "createdAt": "2026-04-01T07:55:31.915Z",
+        "updatedAt": "2026-04-01T07:55:31.915Z",
+        "createdBy": "system",
+        "updatedBy": "system",
+        "isDeleted": false
+      },
+      "443e4324-f3c5-4e12-ad77-5b6d378bdc83": {
+        "id": "443e4324-f3c5-4e12-ad77-5b6d378bdc83",
+        "objectType": "entity",
+        "title": "Category",
+        "summary": "Entity: Category (0 fields)",
+        "status": "suggested",
+        "priority": "p1",
+        "confidence": 0.85,
+        "tags": [],
+        "source": "hydrated",
+        "linkedObjectIds": [],
+        "metadata": {
+          "fields": [],
+          "relations": [],
+          "sourceScreenIds": []
+        },
+        "provenance": {
+          "createdByType": "user",
+          "sourceView": "db_api",
+          "note": "Hydrated from ProjectModel"
+        },
+        "createdAt": "2026-04-01T07:55:31.915Z",
+        "updatedAt": "2026-04-01T07:55:31.915Z",
+        "createdBy": "system",
+        "updatedBy": "system",
+        "isDeleted": false
+      },
+      "f2d32663-b930-423b-8796-9f0a63db29a8": {
+        "id": "f2d32663-b930-423b-8796-9f0a63db29a8",
+        "objectType": "entity",
+        "title": "Profile",
+        "summary": "Entity: Profile (0 fields)",
+        "status": "suggested",
+        "priority": "p1",
+        "confidence": 0.85,
+        "tags": [],
+        "source": "hydrated",
+        "linkedObjectIds": [],
+        "metadata": {
+          "fields": [],
+          "relations": [],
+          "sourceScreenIds": []
+        },
+        "provenance": {
+          "createdByType": "user",
+          "sourceView": "db_api",
+          "note": "Hydrated from ProjectModel"
+        },
+        "createdAt": "2026-04-01T07:55:31.915Z",
+        "updatedAt": "2026-04-01T07:55:31.915Z",
+        "createdBy": "system",
+        "updatedBy": "system",
+        "isDeleted": false
+      },
+      "9ea4e641-1c69-4860-9f48-1d745148b339": {
+        "id": "9ea4e641-1c69-4860-9f48-1d745148b339",
+        "objectType": "entity",
+        "title": "MyList",
+        "summary": "Entity: MyList (0 fields)",
+        "status": "suggested",
+        "priority": "p1",
+        "confidence": 0.85,
+        "tags": [],
+        "source": "hydrated",
+        "linkedObjectIds": [],
+        "metadata": {
+          "fields": [],
+          "relations": [],
+          "sourceScreenIds": []
+        },
+        "provenance": {
+          "createdByType": "user",
+          "sourceView": "db_api",
+          "note": "Hydrated from ProjectModel"
+        },
+        "createdAt": "2026-04-01T07:55:31.915Z",
+        "updatedAt": "2026-04-01T07:55:31.915Z",
+        "createdBy": "system",
+        "updatedBy": "system",
+        "isDeleted": false
+      },
+      "bdeedcdb-f53a-4576-8333-93c3a7ca9649": {
+        "id": "bdeedcdb-f53a-4576-8333-93c3a7ca9649",
+        "objectType": "architecture_node",
+        "title": "TMDB API (optional)",
+        "summary": "For real movie posters and data if desired",
+        "status": "suggested",
+        "priority": "p1",
+        "confidence": 0.85,
+        "tags": [],
+        "source": "hydrated",
+        "linkedObjectIds": [],
+        "metadata": {
+          "archType": "integration",
+          "technologies": []
+        },
+        "provenance": {
+          "createdByType": "user",
+          "sourceView": "architecture",
+          "note": "Hydrated from ProjectModel"
+        },
+        "createdAt": "2026-04-01T07:55:31.915Z",
+        "updatedAt": "2026-04-01T07:55:31.915Z",
+        "createdBy": "system",
+        "updatedBy": "system",
+        "isDeleted": false
+      },
+      "2e8e74a5-4888-45ae-bf97-c240a5b3aab2": {
+        "id": "2e8e74a5-4888-45ae-bf97-c240a5b3aab2",
+        "objectType": "process_step",
+        "title": "Netflix UI Clone",
+        "summary": "Pixel-perfect Netflix UI replication with full browse experience, movie details, search, and profiles using Next.js",
+        "status": "suggested",
+        "priority": "p1",
+        "confidence": 0.85,
+        "tags": [],
+        "source": "hydrated",
+        "linkedObjectIds": [],
+        "metadata": {
+          "goalType": "project_goal"
+        },
+        "provenance": {
+          "createdByType": "user",
+          "sourceView": "workflow",
+          "note": "Hydrated from ProjectModel"
+        },
+        "createdAt": "2026-04-01T07:55:31.915Z",
+        "updatedAt": "2026-04-01T07:55:31.915Z",
+        "createdBy": "system",
+        "updatedBy": "system",
+        "isDeleted": false
+      }
+    },
+    "relations": {},
+    "validationIssues": {},
+    "auditEvents": []
+  },
+  "ssot_saved_at": "2026-04-01T07:55:32.017Z",
+  "blueprint_versions": {
+    "counters": {
+      "S": 1,
+      "F": 1,
+      "A": 1,
+      "P": 1,
+      "D": 1
+    },
+    "snapshots": [
+      {
+        "versionId": "P-1",
+        "layer": "P",
+        "counter": 1,
+        "timestamp": "2026-04-01T07:55:31.925Z",
+        "description": "P layer updated",
+        "beforeObjectCount": 0,
+        "beforeRelationCount": 0,
+        "afterObjectCount": 19,
+        "afterRelationCount": 0,
+        "beforeModel": "{\"projectId\":\"new-project\",\"version\":1,\"objects\":{},\"relations\":{},\"validationIssues\":{},\"auditEvents\":[]}",
+        "afterModel": "{\"projectId\":\"hydrated-project\",\"version\":1,\"objects\":{\"3e942ff3-7ee8-4c3a-a86b-081131cea3f4\":{\"id\":\"3e942ff3-7ee8-4c3a-a86b-081131cea3f4\",\"objectType\":\"screen\",\"title\":\"Profiles\",\"summary\":\"Profile selection screen with Netflix-style avatars\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"purpose\":\"Profile selection screen with Netflix-style avatars\",\"wireframeBlocks\":[],\"linkedFeatures\":[],\"linkedEntities\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"screen\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"4e637392-f589-4bcf-8286-eba2b964e5c7\":{\"id\":\"4e637392-f589-4bcf-8286-eba2b964e5c7\",\"objectType\":\"screen\",\"title\":\"Home\",\"summary\":\"Main browse page with hero banner and category rows\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"purpose\":\"Main browse page with hero banner and category rows\",\"wireframeBlocks\":[],\"linkedFeatures\":[],\"linkedEntities\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"screen\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"d78675f8-0b42-4eec-b13b-7704e42acf57\":{\"id\":\"d78675f8-0b42-4eec-b13b-7704e42acf57\",\"objectType\":\"screen\",\"title\":\"Search\",\"summary\":\"Search page with results grid\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"purpose\":\"Search page with results grid\",\"wireframeBlocks\":[],\"linkedFeatures\":[],\"linkedEntities\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"screen\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"293a21fc-eb15-4cff-be08-bcbf47f9a153\":{\"id\":\"293a21fc-eb15-4cff-be08-bcbf47f9a153\",\"objectType\":\"screen\",\"title\":\"Detail\",\"summary\":\"Movie/Show detail page with full info and mock player\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"purpose\":\"Movie/Show detail page with full info and mock player\",\"wireframeBlocks\":[],\"linkedFeatures\":[],\"linkedEntities\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"screen\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"ae67cf28-a6a8-4627-908c-1099843d30c4\":{\"id\":\"ae67cf28-a6a8-4627-908c-1099843d30c4\",\"objectType\":\"screen\",\"title\":\"My List\",\"summary\":\"User's saved content page\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"purpose\":\"User's saved content page\",\"wireframeBlocks\":[],\"linkedFeatures\":[],\"linkedEntities\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"screen\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"852abe34-1066-4596-a3a7-200df7735fdf\":{\"id\":\"852abe34-1066-4596-a3a7-200df7735fdf\",\"objectType\":\"feature\",\"title\":\"Home/Browse\",\"summary\":\"Main landing page with horizontal scrolling rows of movies/shows organized by category\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"d04469ff-ccbd-45a2-82e4-36e8f68b8dee\":{\"id\":\"d04469ff-ccbd-45a2-82e4-36e8f68b8dee\",\"objectType\":\"feature\",\"title\":\"Hover Preview\",\"summary\":\"When hovering over a movie poster, display expanded card with preview-like effects\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"66400035-f347-47de-ace7-121e312caf39\":{\"id\":\"66400035-f347-47de-ace7-121e312caf39\",\"objectType\":\"feature\",\"title\":\"Movie/Show Detail\",\"summary\":\"Full detail page showing synopsis, cast, similar titles, and mock video player\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"2b30d55f-8a9b-4d37-8262-c1d8900a2c42\":{\"id\":\"2b30d55f-8a9b-4d37-8262-c1d8900a2c42\",\"objectType\":\"feature\",\"title\":\"Search\",\"summary\":\"Real-time search functionality across all mock titles\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"e89e57e1-d78d-4645-84fc-d37e65db5a64\":{\"id\":\"e89e57e1-d78d-4645-84fc-d37e65db5a64\",\"objectType\":\"feature\",\"title\":\"My List\",\"summary\":\"User's saved/favorite movies and shows\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"704f5d2a-c0c6-495e-a3ca-3c99fbb08dc5\":{\"id\":\"704f5d2a-c0c6-495e-a3ca-3c99fbb08dc5\",\"objectType\":\"feature\",\"title\":\"Profiles\",\"summary\":\"Profile selection screen with avatar management\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"b8360f5f-627d-4d64-9567-c6bf256d0904\":{\"id\":\"b8360f5f-627d-4d64-9567-c6bf256d0904\",\"objectType\":\"feature\",\"title\":\"Mock Video Player\",\"summary\":\"Netflix-style video player UI with controls overlay\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"a52e3735-c5fc-44eb-9043-fc9de72d9ead\":{\"id\":\"a52e3735-c5fc-44eb-9043-fc9de72d9ead\",\"objectType\":\"feature\",\"title\":\"Mock Data System\",\"summary\":\"Fake movie/show database with posters, descriptions, and metadata\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"088c980e-2116-43e5-aa3d-27f81c98acba\":{\"id\":\"088c980e-2116-43e5-aa3d-27f81c98acba\",\"objectType\":\"entity\",\"title\":\"Movie/Show\",\"summary\":\"Entity: Movie/Show (0 fields)\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"fields\":[],\"relations\":[],\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"db_api\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"443e4324-f3c5-4e12-ad77-5b6d378bdc83\":{\"id\":\"443e4324-f3c5-4e12-ad77-5b6d378bdc83\",\"objectType\":\"entity\",\"title\":\"Category\",\"summary\":\"Entity: Category (0 fields)\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"fields\":[],\"relations\":[],\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"db_api\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"f2d32663-b930-423b-8796-9f0a63db29a8\":{\"id\":\"f2d32663-b930-423b-8796-9f0a63db29a8\",\"objectType\":\"entity\",\"title\":\"Profile\",\"summary\":\"Entity: Profile (0 fields)\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"fields\":[],\"relations\":[],\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"db_api\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"9ea4e641-1c69-4860-9f48-1d745148b339\":{\"id\":\"9ea4e641-1c69-4860-9f48-1d745148b339\",\"objectType\":\"entity\",\"title\":\"MyList\",\"summary\":\"Entity: MyList (0 fields)\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"fields\":[],\"relations\":[],\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"db_api\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"bdeedcdb-f53a-4576-8333-93c3a7ca9649\":{\"id\":\"bdeedcdb-f53a-4576-8333-93c3a7ca9649\",\"objectType\":\"architecture_node\",\"title\":\"TMDB API (optional)\",\"summary\":\"For real movie posters and data if desired\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"archType\":\"integration\",\"technologies\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"architecture\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"2e8e74a5-4888-45ae-bf97-c240a5b3aab2\":{\"id\":\"2e8e74a5-4888-45ae-bf97-c240a5b3aab2\",\"objectType\":\"process_step\",\"title\":\"Netflix UI Clone\",\"summary\":\"Pixel-perfect Netflix UI replication with full browse experience, movie details, search, and profiles using Next.js\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"goalType\":\"project_goal\"},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"workflow\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false}},\"relations\":{},\"validationIssues\":{},\"auditEvents\":[]}"
+      },
+      {
+        "versionId": "A-1",
+        "layer": "A",
+        "counter": 1,
+        "timestamp": "2026-04-01T07:55:31.925Z",
+        "description": "A layer updated",
+        "beforeObjectCount": 0,
+        "beforeRelationCount": 0,
+        "afterObjectCount": 19,
+        "afterRelationCount": 0,
+        "beforeModel": "{\"projectId\":\"new-project\",\"version\":1,\"objects\":{},\"relations\":{},\"validationIssues\":{},\"auditEvents\":[]}",
+        "afterModel": "{\"projectId\":\"hydrated-project\",\"version\":1,\"objects\":{\"3e942ff3-7ee8-4c3a-a86b-081131cea3f4\":{\"id\":\"3e942ff3-7ee8-4c3a-a86b-081131cea3f4\",\"objectType\":\"screen\",\"title\":\"Profiles\",\"summary\":\"Profile selection screen with Netflix-style avatars\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"purpose\":\"Profile selection screen with Netflix-style avatars\",\"wireframeBlocks\":[],\"linkedFeatures\":[],\"linkedEntities\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"screen\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"4e637392-f589-4bcf-8286-eba2b964e5c7\":{\"id\":\"4e637392-f589-4bcf-8286-eba2b964e5c7\",\"objectType\":\"screen\",\"title\":\"Home\",\"summary\":\"Main browse page with hero banner and category rows\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"purpose\":\"Main browse page with hero banner and category rows\",\"wireframeBlocks\":[],\"linkedFeatures\":[],\"linkedEntities\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"screen\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"d78675f8-0b42-4eec-b13b-7704e42acf57\":{\"id\":\"d78675f8-0b42-4eec-b13b-7704e42acf57\",\"objectType\":\"screen\",\"title\":\"Search\",\"summary\":\"Search page with results grid\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"purpose\":\"Search page with results grid\",\"wireframeBlocks\":[],\"linkedFeatures\":[],\"linkedEntities\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"screen\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"293a21fc-eb15-4cff-be08-bcbf47f9a153\":{\"id\":\"293a21fc-eb15-4cff-be08-bcbf47f9a153\",\"objectType\":\"screen\",\"title\":\"Detail\",\"summary\":\"Movie/Show detail page with full info and mock player\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"purpose\":\"Movie/Show detail page with full info and mock player\",\"wireframeBlocks\":[],\"linkedFeatures\":[],\"linkedEntities\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"screen\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"ae67cf28-a6a8-4627-908c-1099843d30c4\":{\"id\":\"ae67cf28-a6a8-4627-908c-1099843d30c4\",\"objectType\":\"screen\",\"title\":\"My List\",\"summary\":\"User's saved content page\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"purpose\":\"User's saved content page\",\"wireframeBlocks\":[],\"linkedFeatures\":[],\"linkedEntities\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"screen\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"852abe34-1066-4596-a3a7-200df7735fdf\":{\"id\":\"852abe34-1066-4596-a3a7-200df7735fdf\",\"objectType\":\"feature\",\"title\":\"Home/Browse\",\"summary\":\"Main landing page with horizontal scrolling rows of movies/shows organized by category\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"d04469ff-ccbd-45a2-82e4-36e8f68b8dee\":{\"id\":\"d04469ff-ccbd-45a2-82e4-36e8f68b8dee\",\"objectType\":\"feature\",\"title\":\"Hover Preview\",\"summary\":\"When hovering over a movie poster, display expanded card with preview-like effects\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"66400035-f347-47de-ace7-121e312caf39\":{\"id\":\"66400035-f347-47de-ace7-121e312caf39\",\"objectType\":\"feature\",\"title\":\"Movie/Show Detail\",\"summary\":\"Full detail page showing synopsis, cast, similar titles, and mock video player\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"2b30d55f-8a9b-4d37-8262-c1d8900a2c42\":{\"id\":\"2b30d55f-8a9b-4d37-8262-c1d8900a2c42\",\"objectType\":\"feature\",\"title\":\"Search\",\"summary\":\"Real-time search functionality across all mock titles\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"e89e57e1-d78d-4645-84fc-d37e65db5a64\":{\"id\":\"e89e57e1-d78d-4645-84fc-d37e65db5a64\",\"objectType\":\"feature\",\"title\":\"My List\",\"summary\":\"User's saved/favorite movies and shows\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"704f5d2a-c0c6-495e-a3ca-3c99fbb08dc5\":{\"id\":\"704f5d2a-c0c6-495e-a3ca-3c99fbb08dc5\",\"objectType\":\"feature\",\"title\":\"Profiles\",\"summary\":\"Profile selection screen with avatar management\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"b8360f5f-627d-4d64-9567-c6bf256d0904\":{\"id\":\"b8360f5f-627d-4d64-9567-c6bf256d0904\",\"objectType\":\"feature\",\"title\":\"Mock Video Player\",\"summary\":\"Netflix-style video player UI with controls overlay\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"a52e3735-c5fc-44eb-9043-fc9de72d9ead\":{\"id\":\"a52e3735-c5fc-44eb-9043-fc9de72d9ead\",\"objectType\":\"feature\",\"title\":\"Mock Data System\",\"summary\":\"Fake movie/show database with posters, descriptions, and metadata\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"088c980e-2116-43e5-aa3d-27f81c98acba\":{\"id\":\"088c980e-2116-43e5-aa3d-27f81c98acba\",\"objectType\":\"entity\",\"title\":\"Movie/Show\",\"summary\":\"Entity: Movie/Show (0 fields)\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"fields\":[],\"relations\":[],\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"db_api\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"443e4324-f3c5-4e12-ad77-5b6d378bdc83\":{\"id\":\"443e4324-f3c5-4e12-ad77-5b6d378bdc83\",\"objectType\":\"entity\",\"title\":\"Category\",\"summary\":\"Entity: Category (0 fields)\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"fields\":[],\"relations\":[],\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"db_api\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"f2d32663-b930-423b-8796-9f0a63db29a8\":{\"id\":\"f2d32663-b930-423b-8796-9f0a63db29a8\",\"objectType\":\"entity\",\"title\":\"Profile\",\"summary\":\"Entity: Profile (0 fields)\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"fields\":[],\"relations\":[],\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"db_api\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"9ea4e641-1c69-4860-9f48-1d745148b339\":{\"id\":\"9ea4e641-1c69-4860-9f48-1d745148b339\",\"objectType\":\"entity\",\"title\":\"MyList\",\"summary\":\"Entity: MyList (0 fields)\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"fields\":[],\"relations\":[],\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"db_api\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"bdeedcdb-f53a-4576-8333-93c3a7ca9649\":{\"id\":\"bdeedcdb-f53a-4576-8333-93c3a7ca9649\",\"objectType\":\"architecture_node\",\"title\":\"TMDB API (optional)\",\"summary\":\"For real movie posters and data if desired\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"archType\":\"integration\",\"technologies\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"architecture\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"2e8e74a5-4888-45ae-bf97-c240a5b3aab2\":{\"id\":\"2e8e74a5-4888-45ae-bf97-c240a5b3aab2\",\"objectType\":\"process_step\",\"title\":\"Netflix UI Clone\",\"summary\":\"Pixel-perfect Netflix UI replication with full browse experience, movie details, search, and profiles using Next.js\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"goalType\":\"project_goal\"},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"workflow\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false}},\"relations\":{},\"validationIssues\":{},\"auditEvents\":[]}"
+      },
+      {
+        "versionId": "D-1",
+        "layer": "D",
+        "counter": 1,
+        "timestamp": "2026-04-01T07:55:31.925Z",
+        "description": "D layer updated",
+        "beforeObjectCount": 0,
+        "beforeRelationCount": 0,
+        "afterObjectCount": 19,
+        "afterRelationCount": 0,
+        "beforeModel": "{\"projectId\":\"new-project\",\"version\":1,\"objects\":{},\"relations\":{},\"validationIssues\":{},\"auditEvents\":[]}",
+        "afterModel": "{\"projectId\":\"hydrated-project\",\"version\":1,\"objects\":{\"3e942ff3-7ee8-4c3a-a86b-081131cea3f4\":{\"id\":\"3e942ff3-7ee8-4c3a-a86b-081131cea3f4\",\"objectType\":\"screen\",\"title\":\"Profiles\",\"summary\":\"Profile selection screen with Netflix-style avatars\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"purpose\":\"Profile selection screen with Netflix-style avatars\",\"wireframeBlocks\":[],\"linkedFeatures\":[],\"linkedEntities\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"screen\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"4e637392-f589-4bcf-8286-eba2b964e5c7\":{\"id\":\"4e637392-f589-4bcf-8286-eba2b964e5c7\",\"objectType\":\"screen\",\"title\":\"Home\",\"summary\":\"Main browse page with hero banner and category rows\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"purpose\":\"Main browse page with hero banner and category rows\",\"wireframeBlocks\":[],\"linkedFeatures\":[],\"linkedEntities\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"screen\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"d78675f8-0b42-4eec-b13b-7704e42acf57\":{\"id\":\"d78675f8-0b42-4eec-b13b-7704e42acf57\",\"objectType\":\"screen\",\"title\":\"Search\",\"summary\":\"Search page with results grid\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"purpose\":\"Search page with results grid\",\"wireframeBlocks\":[],\"linkedFeatures\":[],\"linkedEntities\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"screen\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"293a21fc-eb15-4cff-be08-bcbf47f9a153\":{\"id\":\"293a21fc-eb15-4cff-be08-bcbf47f9a153\",\"objectType\":\"screen\",\"title\":\"Detail\",\"summary\":\"Movie/Show detail page with full info and mock player\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"purpose\":\"Movie/Show detail page with full info and mock player\",\"wireframeBlocks\":[],\"linkedFeatures\":[],\"linkedEntities\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"screen\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"ae67cf28-a6a8-4627-908c-1099843d30c4\":{\"id\":\"ae67cf28-a6a8-4627-908c-1099843d30c4\",\"objectType\":\"screen\",\"title\":\"My List\",\"summary\":\"User's saved content page\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"purpose\":\"User's saved content page\",\"wireframeBlocks\":[],\"linkedFeatures\":[],\"linkedEntities\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"screen\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"852abe34-1066-4596-a3a7-200df7735fdf\":{\"id\":\"852abe34-1066-4596-a3a7-200df7735fdf\",\"objectType\":\"feature\",\"title\":\"Home/Browse\",\"summary\":\"Main landing page with horizontal scrolling rows of movies/shows organized by category\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"d04469ff-ccbd-45a2-82e4-36e8f68b8dee\":{\"id\":\"d04469ff-ccbd-45a2-82e4-36e8f68b8dee\",\"objectType\":\"feature\",\"title\":\"Hover Preview\",\"summary\":\"When hovering over a movie poster, display expanded card with preview-like effects\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"66400035-f347-47de-ace7-121e312caf39\":{\"id\":\"66400035-f347-47de-ace7-121e312caf39\",\"objectType\":\"feature\",\"title\":\"Movie/Show Detail\",\"summary\":\"Full detail page showing synopsis, cast, similar titles, and mock video player\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"2b30d55f-8a9b-4d37-8262-c1d8900a2c42\":{\"id\":\"2b30d55f-8a9b-4d37-8262-c1d8900a2c42\",\"objectType\":\"feature\",\"title\":\"Search\",\"summary\":\"Real-time search functionality across all mock titles\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"e89e57e1-d78d-4645-84fc-d37e65db5a64\":{\"id\":\"e89e57e1-d78d-4645-84fc-d37e65db5a64\",\"objectType\":\"feature\",\"title\":\"My List\",\"summary\":\"User's saved/favorite movies and shows\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"704f5d2a-c0c6-495e-a3ca-3c99fbb08dc5\":{\"id\":\"704f5d2a-c0c6-495e-a3ca-3c99fbb08dc5\",\"objectType\":\"feature\",\"title\":\"Profiles\",\"summary\":\"Profile selection screen with avatar management\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"b8360f5f-627d-4d64-9567-c6bf256d0904\":{\"id\":\"b8360f5f-627d-4d64-9567-c6bf256d0904\",\"objectType\":\"feature\",\"title\":\"Mock Video Player\",\"summary\":\"Netflix-style video player UI with controls overlay\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"a52e3735-c5fc-44eb-9043-fc9de72d9ead\":{\"id\":\"a52e3735-c5fc-44eb-9043-fc9de72d9ead\",\"objectType\":\"feature\",\"title\":\"Mock Data System\",\"summary\":\"Fake movie/show database with posters, descriptions, and metadata\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"088c980e-2116-43e5-aa3d-27f81c98acba\":{\"id\":\"088c980e-2116-43e5-aa3d-27f81c98acba\",\"objectType\":\"entity\",\"title\":\"Movie/Show\",\"summary\":\"Entity: Movie/Show (0 fields)\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"fields\":[],\"relations\":[],\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"db_api\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"443e4324-f3c5-4e12-ad77-5b6d378bdc83\":{\"id\":\"443e4324-f3c5-4e12-ad77-5b6d378bdc83\",\"objectType\":\"entity\",\"title\":\"Category\",\"summary\":\"Entity: Category (0 fields)\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"fields\":[],\"relations\":[],\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"db_api\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"f2d32663-b930-423b-8796-9f0a63db29a8\":{\"id\":\"f2d32663-b930-423b-8796-9f0a63db29a8\",\"objectType\":\"entity\",\"title\":\"Profile\",\"summary\":\"Entity: Profile (0 fields)\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"fields\":[],\"relations\":[],\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"db_api\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"9ea4e641-1c69-4860-9f48-1d745148b339\":{\"id\":\"9ea4e641-1c69-4860-9f48-1d745148b339\",\"objectType\":\"entity\",\"title\":\"MyList\",\"summary\":\"Entity: MyList (0 fields)\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"fields\":[],\"relations\":[],\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"db_api\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"bdeedcdb-f53a-4576-8333-93c3a7ca9649\":{\"id\":\"bdeedcdb-f53a-4576-8333-93c3a7ca9649\",\"objectType\":\"architecture_node\",\"title\":\"TMDB API (optional)\",\"summary\":\"For real movie posters and data if desired\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"archType\":\"integration\",\"technologies\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"architecture\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"2e8e74a5-4888-45ae-bf97-c240a5b3aab2\":{\"id\":\"2e8e74a5-4888-45ae-bf97-c240a5b3aab2\",\"objectType\":\"process_step\",\"title\":\"Netflix UI Clone\",\"summary\":\"Pixel-perfect Netflix UI replication with full browse experience, movie details, search, and profiles using Next.js\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"goalType\":\"project_goal\"},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"workflow\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false}},\"relations\":{},\"validationIssues\":{},\"auditEvents\":[]}"
+      },
+      {
+        "versionId": "F-1",
+        "layer": "F",
+        "counter": 1,
+        "timestamp": "2026-04-01T07:55:31.925Z",
+        "description": "F layer updated",
+        "beforeObjectCount": 0,
+        "beforeRelationCount": 0,
+        "afterObjectCount": 19,
+        "afterRelationCount": 0,
+        "beforeModel": "{\"projectId\":\"new-project\",\"version\":1,\"objects\":{},\"relations\":{},\"validationIssues\":{},\"auditEvents\":[]}",
+        "afterModel": "{\"projectId\":\"hydrated-project\",\"version\":1,\"objects\":{\"3e942ff3-7ee8-4c3a-a86b-081131cea3f4\":{\"id\":\"3e942ff3-7ee8-4c3a-a86b-081131cea3f4\",\"objectType\":\"screen\",\"title\":\"Profiles\",\"summary\":\"Profile selection screen with Netflix-style avatars\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"purpose\":\"Profile selection screen with Netflix-style avatars\",\"wireframeBlocks\":[],\"linkedFeatures\":[],\"linkedEntities\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"screen\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"4e637392-f589-4bcf-8286-eba2b964e5c7\":{\"id\":\"4e637392-f589-4bcf-8286-eba2b964e5c7\",\"objectType\":\"screen\",\"title\":\"Home\",\"summary\":\"Main browse page with hero banner and category rows\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"purpose\":\"Main browse page with hero banner and category rows\",\"wireframeBlocks\":[],\"linkedFeatures\":[],\"linkedEntities\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"screen\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"d78675f8-0b42-4eec-b13b-7704e42acf57\":{\"id\":\"d78675f8-0b42-4eec-b13b-7704e42acf57\",\"objectType\":\"screen\",\"title\":\"Search\",\"summary\":\"Search page with results grid\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"purpose\":\"Search page with results grid\",\"wireframeBlocks\":[],\"linkedFeatures\":[],\"linkedEntities\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"screen\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"293a21fc-eb15-4cff-be08-bcbf47f9a153\":{\"id\":\"293a21fc-eb15-4cff-be08-bcbf47f9a153\",\"objectType\":\"screen\",\"title\":\"Detail\",\"summary\":\"Movie/Show detail page with full info and mock player\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"purpose\":\"Movie/Show detail page with full info and mock player\",\"wireframeBlocks\":[],\"linkedFeatures\":[],\"linkedEntities\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"screen\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"ae67cf28-a6a8-4627-908c-1099843d30c4\":{\"id\":\"ae67cf28-a6a8-4627-908c-1099843d30c4\",\"objectType\":\"screen\",\"title\":\"My List\",\"summary\":\"User's saved content page\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"purpose\":\"User's saved content page\",\"wireframeBlocks\":[],\"linkedFeatures\":[],\"linkedEntities\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"screen\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"852abe34-1066-4596-a3a7-200df7735fdf\":{\"id\":\"852abe34-1066-4596-a3a7-200df7735fdf\",\"objectType\":\"feature\",\"title\":\"Home/Browse\",\"summary\":\"Main landing page with horizontal scrolling rows of movies/shows organized by category\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"d04469ff-ccbd-45a2-82e4-36e8f68b8dee\":{\"id\":\"d04469ff-ccbd-45a2-82e4-36e8f68b8dee\",\"objectType\":\"feature\",\"title\":\"Hover Preview\",\"summary\":\"When hovering over a movie poster, display expanded card with preview-like effects\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"66400035-f347-47de-ace7-121e312caf39\":{\"id\":\"66400035-f347-47de-ace7-121e312caf39\",\"objectType\":\"feature\",\"title\":\"Movie/Show Detail\",\"summary\":\"Full detail page showing synopsis, cast, similar titles, and mock video player\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"2b30d55f-8a9b-4d37-8262-c1d8900a2c42\":{\"id\":\"2b30d55f-8a9b-4d37-8262-c1d8900a2c42\",\"objectType\":\"feature\",\"title\":\"Search\",\"summary\":\"Real-time search functionality across all mock titles\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"e89e57e1-d78d-4645-84fc-d37e65db5a64\":{\"id\":\"e89e57e1-d78d-4645-84fc-d37e65db5a64\",\"objectType\":\"feature\",\"title\":\"My List\",\"summary\":\"User's saved/favorite movies and shows\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"704f5d2a-c0c6-495e-a3ca-3c99fbb08dc5\":{\"id\":\"704f5d2a-c0c6-495e-a3ca-3c99fbb08dc5\",\"objectType\":\"feature\",\"title\":\"Profiles\",\"summary\":\"Profile selection screen with avatar management\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"b8360f5f-627d-4d64-9567-c6bf256d0904\":{\"id\":\"b8360f5f-627d-4d64-9567-c6bf256d0904\",\"objectType\":\"feature\",\"title\":\"Mock Video Player\",\"summary\":\"Netflix-style video player UI with controls overlay\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"a52e3735-c5fc-44eb-9043-fc9de72d9ead\":{\"id\":\"a52e3735-c5fc-44eb-9043-fc9de72d9ead\",\"objectType\":\"feature\",\"title\":\"Mock Data System\",\"summary\":\"Fake movie/show database with posters, descriptions, and metadata\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"088c980e-2116-43e5-aa3d-27f81c98acba\":{\"id\":\"088c980e-2116-43e5-aa3d-27f81c98acba\",\"objectType\":\"entity\",\"title\":\"Movie/Show\",\"summary\":\"Entity: Movie/Show (0 fields)\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"fields\":[],\"relations\":[],\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"db_api\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"443e4324-f3c5-4e12-ad77-5b6d378bdc83\":{\"id\":\"443e4324-f3c5-4e12-ad77-5b6d378bdc83\",\"objectType\":\"entity\",\"title\":\"Category\",\"summary\":\"Entity: Category (0 fields)\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"fields\":[],\"relations\":[],\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"db_api\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"f2d32663-b930-423b-8796-9f0a63db29a8\":{\"id\":\"f2d32663-b930-423b-8796-9f0a63db29a8\",\"objectType\":\"entity\",\"title\":\"Profile\",\"summary\":\"Entity: Profile (0 fields)\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"fields\":[],\"relations\":[],\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"db_api\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"9ea4e641-1c69-4860-9f48-1d745148b339\":{\"id\":\"9ea4e641-1c69-4860-9f48-1d745148b339\",\"objectType\":\"entity\",\"title\":\"MyList\",\"summary\":\"Entity: MyList (0 fields)\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"fields\":[],\"relations\":[],\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"db_api\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"bdeedcdb-f53a-4576-8333-93c3a7ca9649\":{\"id\":\"bdeedcdb-f53a-4576-8333-93c3a7ca9649\",\"objectType\":\"architecture_node\",\"title\":\"TMDB API (optional)\",\"summary\":\"For real movie posters and data if desired\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"archType\":\"integration\",\"technologies\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"architecture\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"2e8e74a5-4888-45ae-bf97-c240a5b3aab2\":{\"id\":\"2e8e74a5-4888-45ae-bf97-c240a5b3aab2\",\"objectType\":\"process_step\",\"title\":\"Netflix UI Clone\",\"summary\":\"Pixel-perfect Netflix UI replication with full browse experience, movie details, search, and profiles using Next.js\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"goalType\":\"project_goal\"},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"workflow\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false}},\"relations\":{},\"validationIssues\":{},\"auditEvents\":[]}"
+      },
+      {
+        "versionId": "S-1",
+        "layer": "S",
+        "counter": 1,
+        "timestamp": "2026-04-01T07:55:31.925Z",
+        "description": "S layer updated",
+        "beforeObjectCount": 0,
+        "beforeRelationCount": 0,
+        "afterObjectCount": 19,
+        "afterRelationCount": 0,
+        "beforeModel": "{\"projectId\":\"new-project\",\"version\":1,\"objects\":{},\"relations\":{},\"validationIssues\":{},\"auditEvents\":[]}",
+        "afterModel": "{\"projectId\":\"hydrated-project\",\"version\":1,\"objects\":{\"3e942ff3-7ee8-4c3a-a86b-081131cea3f4\":{\"id\":\"3e942ff3-7ee8-4c3a-a86b-081131cea3f4\",\"objectType\":\"screen\",\"title\":\"Profiles\",\"summary\":\"Profile selection screen with Netflix-style avatars\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"purpose\":\"Profile selection screen with Netflix-style avatars\",\"wireframeBlocks\":[],\"linkedFeatures\":[],\"linkedEntities\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"screen\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"4e637392-f589-4bcf-8286-eba2b964e5c7\":{\"id\":\"4e637392-f589-4bcf-8286-eba2b964e5c7\",\"objectType\":\"screen\",\"title\":\"Home\",\"summary\":\"Main browse page with hero banner and category rows\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"purpose\":\"Main browse page with hero banner and category rows\",\"wireframeBlocks\":[],\"linkedFeatures\":[],\"linkedEntities\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"screen\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"d78675f8-0b42-4eec-b13b-7704e42acf57\":{\"id\":\"d78675f8-0b42-4eec-b13b-7704e42acf57\",\"objectType\":\"screen\",\"title\":\"Search\",\"summary\":\"Search page with results grid\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"purpose\":\"Search page with results grid\",\"wireframeBlocks\":[],\"linkedFeatures\":[],\"linkedEntities\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"screen\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"293a21fc-eb15-4cff-be08-bcbf47f9a153\":{\"id\":\"293a21fc-eb15-4cff-be08-bcbf47f9a153\",\"objectType\":\"screen\",\"title\":\"Detail\",\"summary\":\"Movie/Show detail page with full info and mock player\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"purpose\":\"Movie/Show detail page with full info and mock player\",\"wireframeBlocks\":[],\"linkedFeatures\":[],\"linkedEntities\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"screen\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"ae67cf28-a6a8-4627-908c-1099843d30c4\":{\"id\":\"ae67cf28-a6a8-4627-908c-1099843d30c4\",\"objectType\":\"screen\",\"title\":\"My List\",\"summary\":\"User's saved content page\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"purpose\":\"User's saved content page\",\"wireframeBlocks\":[],\"linkedFeatures\":[],\"linkedEntities\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"screen\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"852abe34-1066-4596-a3a7-200df7735fdf\":{\"id\":\"852abe34-1066-4596-a3a7-200df7735fdf\",\"objectType\":\"feature\",\"title\":\"Home/Browse\",\"summary\":\"Main landing page with horizontal scrolling rows of movies/shows organized by category\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"d04469ff-ccbd-45a2-82e4-36e8f68b8dee\":{\"id\":\"d04469ff-ccbd-45a2-82e4-36e8f68b8dee\",\"objectType\":\"feature\",\"title\":\"Hover Preview\",\"summary\":\"When hovering over a movie poster, display expanded card with preview-like effects\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"66400035-f347-47de-ace7-121e312caf39\":{\"id\":\"66400035-f347-47de-ace7-121e312caf39\",\"objectType\":\"feature\",\"title\":\"Movie/Show Detail\",\"summary\":\"Full detail page showing synopsis, cast, similar titles, and mock video player\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"2b30d55f-8a9b-4d37-8262-c1d8900a2c42\":{\"id\":\"2b30d55f-8a9b-4d37-8262-c1d8900a2c42\",\"objectType\":\"feature\",\"title\":\"Search\",\"summary\":\"Real-time search functionality across all mock titles\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"e89e57e1-d78d-4645-84fc-d37e65db5a64\":{\"id\":\"e89e57e1-d78d-4645-84fc-d37e65db5a64\",\"objectType\":\"feature\",\"title\":\"My List\",\"summary\":\"User's saved/favorite movies and shows\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"704f5d2a-c0c6-495e-a3ca-3c99fbb08dc5\":{\"id\":\"704f5d2a-c0c6-495e-a3ca-3c99fbb08dc5\",\"objectType\":\"feature\",\"title\":\"Profiles\",\"summary\":\"Profile selection screen with avatar management\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"b8360f5f-627d-4d64-9567-c6bf256d0904\":{\"id\":\"b8360f5f-627d-4d64-9567-c6bf256d0904\",\"objectType\":\"feature\",\"title\":\"Mock Video Player\",\"summary\":\"Netflix-style video player UI with controls overlay\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"a52e3735-c5fc-44eb-9043-fc9de72d9ead\":{\"id\":\"a52e3735-c5fc-44eb-9043-fc9de72d9ead\",\"objectType\":\"feature\",\"title\":\"Mock Data System\",\"summary\":\"Fake movie/show database with posters, descriptions, and metadata\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"feature\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"088c980e-2116-43e5-aa3d-27f81c98acba\":{\"id\":\"088c980e-2116-43e5-aa3d-27f81c98acba\",\"objectType\":\"entity\",\"title\":\"Movie/Show\",\"summary\":\"Entity: Movie/Show (0 fields)\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"fields\":[],\"relations\":[],\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"db_api\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"443e4324-f3c5-4e12-ad77-5b6d378bdc83\":{\"id\":\"443e4324-f3c5-4e12-ad77-5b6d378bdc83\",\"objectType\":\"entity\",\"title\":\"Category\",\"summary\":\"Entity: Category (0 fields)\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"fields\":[],\"relations\":[],\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"db_api\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"f2d32663-b930-423b-8796-9f0a63db29a8\":{\"id\":\"f2d32663-b930-423b-8796-9f0a63db29a8\",\"objectType\":\"entity\",\"title\":\"Profile\",\"summary\":\"Entity: Profile (0 fields)\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"fields\":[],\"relations\":[],\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"db_api\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"9ea4e641-1c69-4860-9f48-1d745148b339\":{\"id\":\"9ea4e641-1c69-4860-9f48-1d745148b339\",\"objectType\":\"entity\",\"title\":\"MyList\",\"summary\":\"Entity: MyList (0 fields)\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"fields\":[],\"relations\":[],\"sourceScreenIds\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"db_api\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"bdeedcdb-f53a-4576-8333-93c3a7ca9649\":{\"id\":\"bdeedcdb-f53a-4576-8333-93c3a7ca9649\",\"objectType\":\"architecture_node\",\"title\":\"TMDB API (optional)\",\"summary\":\"For real movie posters and data if desired\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"archType\":\"integration\",\"technologies\":[]},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"architecture\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false},\"2e8e74a5-4888-45ae-bf97-c240a5b3aab2\":{\"id\":\"2e8e74a5-4888-45ae-bf97-c240a5b3aab2\",\"objectType\":\"process_step\",\"title\":\"Netflix UI Clone\",\"summary\":\"Pixel-perfect Netflix UI replication with full browse experience, movie details, search, and profiles using Next.js\",\"status\":\"suggested\",\"priority\":\"p1\",\"confidence\":0.85,\"tags\":[],\"source\":\"hydrated\",\"linkedObjectIds\":[],\"metadata\":{\"goalType\":\"project_goal\"},\"provenance\":{\"createdByType\":\"user\",\"sourceView\":\"workflow\",\"note\":\"Hydrated from ProjectModel\"},\"createdAt\":\"2026-04-01T07:55:31.915Z\",\"updatedAt\":\"2026-04-01T07:55:31.915Z\",\"createdBy\":\"system\",\"updatedBy\":\"system\",\"isDeleted\":false}},\"relations\":{},\"validationIssues\":{},\"auditEvents\":[]}"
+      }
+    ]
+  },
+  "launch_checklist": {
+    "source_control": {
+      "provider": null,
+      "connected": false,
+      "repo_name": null,
+      "branch_strategy": null,
+      "username": null
+    },
+    "infrastructure": {
+      "backend": null,
+      "frontend": null,
+      "database": null,
+      "combo": null
+    },
+    "build_history": [],
+    "test": {
+      "enabled": [],
+      "items": [],
+      "mode": "manual"
+    },
+    "docs": {
+      "enabled": [],
+      "synced_build": null
+    },
+    "deploy": {
+      "domain_provider": null,
+      "ssl": "auto",
+      "cdn": null
+    },
+    "monitor": {
+      "monitoring": null,
+      "analytics": null
+    },
+    "visual_design": {
+      "preset": null,
+      "colors": {
+        "primary": "#3b82f6",
+        "secondary": "#64748b",
+        "accent": "#f59e0b",
+        "background": "#ffffff",
+        "surface": "#f8fafc",
+        "error": "#ef4444"
+      },
+      "typography": {
+        "heading": "Inter",
+        "body": "Inter",
+        "mono": "JetBrains Mono"
+      },
+      "logo": {
+        "path": null,
+        "name": null
+      },
+      "theme_mode": "system",
+      "border_radius": "md",
+      "figma_url": null
+    }
+  }
+}
